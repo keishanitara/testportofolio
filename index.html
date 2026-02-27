@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Computer Science student specializing in logic-driven development, UI design, and photography.">
+    <title>Portfolio | CS Student & UI Designer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</head>
+</body>
+</html>
+
+    <!-- Start: Header & Navigation -->
+    <header class="header">
+        <nav class="nav container" aria-label="Main Navigation">
+            <a href="#home" class="nav__logo" aria-label="Home page">
+                CS<span class="nav__logo--dot">.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <button id="theme-toggle" class="nav__btn-theme" aria-label="Toggle dark and light mode">
+                    <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                </button>
+
+                <button class="nav__hamburger hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- End: Header & Navigation -->
+
+    <main id="main-content">
+        
+        <!-- Start: Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Creativity<span class="text--accent"></span> Meets <span class="text--accent">Business</span></h1>
+                    <p class="hero__subtitle">A second-semester Digital Business Innovation student and founder of Key’s Ribbon. I build and grow a handmade bouquet brand through creative design, branding, and Instagram-based marketing.</p>
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">Visit Key's Ribbon</a>
+                        <a href="#contact" class="btn btn--secondary">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Hero Section -->
+
+        <!-- Start: About Section -->
+        <section id="about" class="about section">
+            <div class="about__container container">
+                <div class="about__grid">
+                    <figure class="about__image-wrapper">
+                        <!-- Path suggestion: assets/images/profile.jpg -->
+                        <img src="assets/WhatsApp Image 2026-02-23 at 13.31.50.jpeg" 
+                             alt="Key's Ribbon Founder Portrait" 
+                             class="about__img" 
+                             width="400" 
+                             height="400" 
+                             loading="lazy">
+                        <figcaption class="about__caption">Founder of Key's Ribbon</figcaption>
+                    </figure>
+
+                    <div class="about__text">
+                        <h3 class="section__title">About Me</h3>
+                        <p class="about__description">
+                            I am a second-semester Digital Business Innovation student at BINUS University with a strong interest in entrepreneurship and brand development. Starting my own handmade bouquet business in high school allowed me to apply business concepts, from product development and branding to Instagram-based marketing. I am passionate about turning creative ideas into structured, scalable business opportunities.
+                        </p>
+                        <a href="https://1drv.ms/b/c/A98A3A012E20129E/IQDHwARrQl8sQI3Sh2T0RQSQAU_ue-aFQJ6Ngwe54WEIhOA?e=oIL3Hy" class="btn btn--outline" download aria-label="Download my Resume">
+                            <i class="fa-solid fa-download" aria-hidden="true"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: About Section -->
+
+        <!-- Start: Projects Section -->
+<section id="projects" class="projects section">
+    <div class="projects__container container">
+        <h3 class="section__title text--center" style="text-align: center; margin-bottom: 2rem;">My Project</h3>
+        
+        <div class="projects__grid">
+            <!-- Project Card 1: Key's Ribbon -->
+            <a href="[https://www.instagram.com/key.ribbon?igsh=aGZ5Ymc0YmF1ZjBl](https://www.instagram.com/key.ribbon?igsh=aGZ5Ymc0YmF1ZjBl)" class="project-card--clickable" target="_blank" rel="noopener noreferrer" aria-label="Visit Key's Ribbon Instagram">
+                <article class="project-card">
+                    <div class="project-card__img-wrapper">
+                        <img src="assets/Logo Key's ribbon.jpeg" alt="Key's Ribbon Business Branding" class="project-card__img" loading="lazy">
+                    </div>
+                    
+                    <div class="project-card__content">
+                        <h4 class="project-card__title">Key’s Ribbon</h4>
+                        
+                        <div class="project-card__details">
+                            <div class="project-card__desc-side">
+                                <p class="project-card__text">
+                                    Founder of a handmade satin ribbon bouquet brand. I manage the end-to-end business process, focusing on creative product design and digital marketing strategies to build brand awareness.
+                                </p>
+                            </div>
+                            <div class="project-card__action-side">
+                                <span class="project-card__subtitle">What I Did</span>
+                                <ul class="project-card__list">
+                                    <li>- Designed and crafted handmade satin ribbon bouquet products</li>
+                                    <li>- Managed Instagram content creation and posting</li>
+                                    <li>- Handled customer inquiries and order processing</li>
+                                    <li>- Developed pricing variations and product customization options</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-card__tech">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Marketing</span>
+                            <span class="tag">Entrepreneurship</span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- End: Projects Section -->
+ 
+        <!-- Start: Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="contact__container container">
+                <h3 class="section__title text--center">Let's Connect</h3>
+                <div class="contact__form-wrapper">
+                    <form action="#" method="POST" class="contact__form form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="e.g. Jane Smith" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="e.g. hello@example.com" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form__input form__textarea" placeholder="How can we collaborate on your next project?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End: Contact Section -->
+
+    </main>
+
+    <!-- Start: Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    &copy; 2026 Kadek Keisha Nitara Vali. Digital Business Innovation Student | Founder of Key.Ribbon.
+                </p>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="https://github.com/keishanitara" class="footer__social-link" aria-label="Link to GitHub">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/keisha-nitara-795a3a388?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer__social-link" aria-label="Link to LinkedIn">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- End: Footer -->
+
+</body>
+</html>
