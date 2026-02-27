@@ -1,60 +1,61 @@
-# Creativity Meets Business Portfolio
+# Portfolio | Where Creativity Meets Business
 
-**CS Student & UI Designer | Founder of Key's Ribbon**
-
-A personal portfolio showcasing the intersection between creative design and logical development. Built with a lightweight, component-based approach using modern web standards.
+**Kadek Keisha Nitara Vali** — 2nd-semester Digital Business Innovation student & founder of Key’s Ribbon
 
 ---
 
 ## About the Project
+This repository hosts my personal portfolio website, built as a live demonstration of my dual strengths in creative branding and business innovation. The layout and interactions are handcrafted using:
 
-This static site was crafted using **HTML5**, **CSS3** (with variables and a component architecture), and **vanilla JavaScript**. It reflects a clean design philosophy focused on accessibility, responsiveness, and a smooth user experience. Dark/light mode support and intuitive navigation give visitors a polished feel on any device.
+- **HTML5** for semantic structure
+- **CSS3** (BEM methodology) with custom variables for dark/light theming
+- **Vanilla JavaScript** for accessibility‑focused UI enhancements
 
+Design philosophy: clean, professional, and brand‑focused. The site is intended to act as a digital storefront for my story and as a case study of how entrepreneurship and UI design intersect.
+
+---
 
 ## Key Features
 
-- **Responsive Design:** Flexible layout that works on desktop, tablet, and mobile
-- **Theme Switching:** Dark and light mode toggle with persistent preference
-- **Accessible Navigation:** Hamburger menu for small screens with ARIA attributes
-- **Smooth Scrolling:** Internal link handling and header scroll effects
-- **Project Gallery:** Highlights sample work like a Java Calculator, Python To‑Do List, and Editorial Blog template
-- **Contact Form:** Simple, styled form for inquiries (frontend only)
+- ✅ **Responsive design** that adapts from mobile to desktop
+- 🌗 **Persistent theme switching** (dark/light) with system preference detection
+- 🔗 **Smooth scrolling & navigation** for accessible user flows
+- 💼 **Business case study showcase** highlighting my handmade bouquet brand, Key’s Ribbon
 
+---
 
 ## Local Setup
 
-Get the site running locally in a few steps:
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/keishanitara/mini-project-1.0-bncc.git
+   cd "Mini Project 1.0 BNCC"
+   ```
+2. **Open locally**
+   - Option A: Double-click `index.html` in your browser.
+   - Option B: Start a simple HTTP server (e.g., `npx serve` or `python -m http.server`) and navigate to `http://localhost:3000`.
 
-```bash
-# clone the repository
-git clone https://github.com/keishanitara/your-repo-name.git
-cd "Mini Project 1.0 BNCC"
+No build tools required; the site runs as static assets.
 
-# open in default browser (Windows example)
-start index.html
-```
-
-Alternatively, open `index.html` directly in any browser of your choice.
-
+---
 
 ## Project Structure
-
 ```
-Mini Project 1.0 BNCC/
-├── index.html          # main landing page
-├── style.css           # global stylesheet with variables and components
-├── script.js           # navigation, theme toggle, smooth scrolling logic
-└── assets/             # images and other static resources
-    └── ...
+├── index.html            # entry point
+├── style.css             # global stylesheet with theming vars
+├── script.js             # DOM‑ready UI scripts
+├── assets/               # images and media
+└── README.md             # this documentation
 ```
 
+Assets are organized under `assets/` and the code is intentionally flat for quick development.
+
+---
 
 ## Contact & Socials
 
-Reach out or view more of my work:
+- 🔗 [LinkedIn](https://www.linkedin.com/in/keisha-nitara-795a3a388)
+- 🐙 [GitHub](https://github.com/keishanitara)
+- 📷 [Instagram — Key’s Ribbon](https://www.instagram.com/key.ribbon)
 
-- GitHub: [keishanitara](https://github.com/keishanitara)
-- LinkedIn: [Keisha Nitara](https://www.linkedin.com/in/keisha-nitara-795a3a388)
-
-
-> *Built by a second‑semester Digital Business Innovation student and maker of Key's Ribbon. Creativity always meets business.*
+Questions, collabs, or feedback are welcome. I’m building more projects as I grow through the Digital Business Innovation program—stay tuned!
